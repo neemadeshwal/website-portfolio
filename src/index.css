@@ -1,0 +1,352 @@
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: whitesmoke;
+}
+.header-container{
+  width: 80vw;
+  margin:  5px auto;
+
+}
+.header-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+
+}
+
+.header-center h2{
+  font-size: 2rem;
+  color: rgb(29, 29, 29);
+  letter-spacing: 1px;
+  font-family:  sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.links{
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+
+
+}
+.link{
+
+
+
+}
+.link a{
+  color: rgb(107, 106, 106);
+  text-decoration: none;
+  list-style-type: none;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  list-style: none;
+  &:hover{
+    color: black;
+  }
+}
+
+
+/* home-container */
+
+.home-container{
+  width: 60vw;
+  margin: 5px auto;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 60vh;
+  padding: 4rem 1rem;
+}
+.home-container>*{
+  background-color: white;
+}
+.profile-image-container{
+  background-color: rgba(103, 105, 103, 0.274);
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image-container img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+}
+.profile-details-container{
+  text-align: center;
+  background-color: whitesmoke;
+}
+.profile-details-container h3{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: 'Roboto',sans-serif;
+  color: rgb(54, 54, 54);
+}
+.profile-details-container h1{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: rgb(27, 27, 27);
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
+  margin-bottom: 1px;
+
+
+}
+.profile-details-container h2{
+  color: rgb(48, 47, 47);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  margin-top: 8px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.profile-button-links{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.cv-btn,.contact-info-btn{
+  padding: 14px ;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-transform: lowercase;
+  background: transparent;
+  font-family: sans-serif;
+  border: 1px solid black ;
+  letter-spacing: 1px;
+  background-color: white;
+  cursor: pointer;
+}
+.cv-btn{
+  width: 6rem;
+}
+.contact-info-btn{
+  background-color: black;
+  color: white;
+}
+
+.social-profile-links{
+  display: flex;
+  gap: 1rem;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+.social-link{
+color: black;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+/* skillcontainer */
+
+.skill-container{
+  width: 70vw;
+  height: 80vh;
+  margin: 5px auto;
+
+}
+.skill-container>*{
+  background-color: white;
+}
+.skill-heading{
+  color: rgb(46, 45, 45);
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  background-color: whitesmoke;
+}
+.all-skills-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.frontend-container{
+border: 3px solid rgb(155, 154, 154);
+padding: 1rem;
+width: 31vw;
+border-radius: 5px;
+background-color: white;
+}
+.backend-container{
+  padding: 1rem;
+  border: 3px solid rgb(155, 154, 154);
+  width: 31vw;
+  border-radius: 5px;
+  background-color: white;
+  
+}
+.single-skill-container{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+
+}
+.frontend-detail,.backend-detail{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.skill-detail h3{
+  text-transform: capitalize;
+  font-family: "Roboto",sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+.skill-detail p{
+  margin-top: 2px;
+  color: rgb(129, 128, 128);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.frontend-container h2,.backend-container h2{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: rgb(32, 32, 32);
+  font-size: 1.9rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* single project container */
+
+.project-container{
+  width: 85vw;
+  margin: 5rem auto;
+  margin-top: 8rem;
+
+}
+.project-container>*{
+  background-color: white;
+}
+.project-container h2{
+  text-align: center;
+  color: rgb(71, 70, 70);
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  background-color: whitesmoke;
+}
+.project-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  column-gap: 2rem;
+  margin:2px auto;
+  background-color: whitesmoke;
+}
+.single-project-container{
+  width: 320px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  background-color: white;
+  padding: 2rem;
+}
+.single-project-container img{
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.project-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0;
+
+
+}
+.project-info h4{
+  font-size: 1.3rem;
+  color: rgb(54, 54, 54);
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+.project-info p{
+  margin-top: 5px;
+}
+.project-info p a{
+  color: rgb(53, 53, 53);
+  margin-top: 5px;
+
+ 
+  
+}
+.project-info p a >*{
+  width: 25px;
+  height:  25px;
+  margin-top: 5px;
+}
+.single-project-container:hover {
+  transform: scale(1.04);
+  transition: 0.3s ease-in-out all;
+}
+/* contacts */
+
+.contact-container{
+  width: 80vw;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+}
+.contact-container h2{
+  text-align: center;
+  color: rgb(71, 70, 70);
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 6rem;
+  background-color: whitesmoke;
+  margin-top: 0;
+}
+
+.contact-info{
+  padding: 2rem;
+  border: 3px solid rgb(71, 71, 71);
+  border-radius: 20px;
+  background-color: white;
+
+  width: 30vw;
+}
+.contact-info p{
+  font-size: 1.3rem;
+  color: rgb(87, 86, 86);
+  font-family: "Roboto",sans-serif;
+
+}
+.mail{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.email,.linkedin{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
