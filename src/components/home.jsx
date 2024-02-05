@@ -13,7 +13,7 @@ const Home=()=>{
         <h2>frontend developer</h2>
         
         <div className="profile-button-links">
-        <a href="https://wrtflm.csb.app/" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1Krf7IYy2dV-PtQoRY2-k7graJag1Y3Gy/view?usp=sharing" target="_blank" rel="noreferrer">
             
             <button className="cv-btn" > my cv</button>
           </a>
